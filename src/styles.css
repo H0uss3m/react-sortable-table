@@ -1,0 +1,52 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0px 8px;
+}
+th {
+  position: relative;
+  font-family: "Neue Haas Unica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  max-height: 32px;
+  padding: 8px 8px 8px 16px;
+  background: #f5f5f5;
+  border-radius: 4px;
+  border-right: 16px solid #fff;
+  border-bottom: 8px solid #fff;
+}
+.dropdown_icon {
+  display: block;
+  pointer-events: none;
+  border-right: solid 3px transparent;
+  border-left: solid 3px transparent;
+  border-top: solid 5px #000;
+  transition: all 0.15s ease-in-out;
+  width: 0px;
+  height: 0px;
+}
+th:last-child {
+  border-right: none;
+}
+td {
+  font-family: "Neue Haas Unica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 16px;
+  max-height: 48px;
+  background: #f5f5f5;
+}
+
+td:nth-child(4n),
+td:last-child {
+  text-align: right;
+}
+.status-1 {
+  color: #3fa4dc;
+}
+.status-2 {
+  color: #558f4f;
+}
